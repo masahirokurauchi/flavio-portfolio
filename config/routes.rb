@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "home#home"
+
+  get "about_me", to: "home#about_me"
 end
