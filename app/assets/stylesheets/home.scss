@@ -1,11 +1,20 @@
 .wrapper {
-    width: 80%;
-    margin: 0 auto;
+    background-color: #5157FF;
 
-    .text {
-        font-size: 74px;
-        font-family: futura;
-        font-weight: 700;
+    .main{
+        width: 80%;
+        margin: 0 auto;
+
+        .greeting {
+            color: white;
+        }
+
+        .text {
+            font-size: 74px;
+            font-family: futura;
+            font-weight: 700;
+            color: white;
+        }
     }
 }
 
