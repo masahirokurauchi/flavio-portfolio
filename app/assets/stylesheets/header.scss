@@ -1,0 +1,23 @@
+.header-wrapper {
+    background-color: #5157FF;
+}
+
+.header {
+    display: flex;
+    width: 40%;
+    margin: 0 0 0 auto;
+
+    .header-box {
+        display: flex;
+        margin: 50px auto 0;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .aboutme {
+            padding: 0 20px 0;
+        }
+    }
+}
