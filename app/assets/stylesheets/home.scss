@@ -1,4 +1,11 @@
-.text {
-    font-size: 74px;
-    font-family: futura;
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+    .text {
+        font-size: 74px;
+        font-family: futura;
+        font-weight: 700;
+    }
 }
+
