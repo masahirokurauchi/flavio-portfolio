@@ -1,0 +1,23 @@
+#about-me {
+    background-color: #EBEBEB;
+    min-height: 100vh;
+
+    .main{
+        width: 80%;
+        margin: 0 auto;
+
+        .greeting {
+            color: #E7E4E3;
+            font-size: 27px;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            font-size: 90px;
+            font-family: futura;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}
+
