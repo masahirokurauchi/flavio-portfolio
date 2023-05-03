@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "jquery": "^3.6.4"
-  }
+  "name": "flavio-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/masahirokurauchi/flavio-portfolio.git",
+  "author": "Masahiro Kurauchi <44106989+masahirokurauchi@users.noreply.github.com>",
+  "license": "MIT"
 }
