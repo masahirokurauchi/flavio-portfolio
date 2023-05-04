@@ -1,1 +1,12 @@
 // Entry point for your Sass build
+ // reset
+ @import "reset";
+ 
+ // header
+ @import "header";
+
+ // home
+ @import "home/home";
+
+ // about_me
+ @import "home/about_me";
