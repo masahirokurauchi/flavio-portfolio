@@ -4,7 +4,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "home#home"
 
-  get "about_me", to: "home#about_me"
+  get "about_me"        , to: "home#about_me"
 
-  get "work", to: "work#index"
+  get "work"            , to: "work#branding"
+  get "work/branding"   , to: "work#branding"
+  get "work/logo"       , to: "work#logo"
+  get "work/3d"         , to: "work#3d"
 end
