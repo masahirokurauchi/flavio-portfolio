@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   get "work"            , to: "work#branding"
   get "work/branding"   , to: "work#branding"
   get "work/logo"       , to: "work#logo"
-  get "work/3d"         , to: "work#3d"
+  get "work/3d"         , to: "work#three_d"
 end
