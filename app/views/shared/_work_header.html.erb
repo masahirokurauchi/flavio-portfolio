@@ -1,1 +1,15 @@
-<header>ヘッダー</header>
+<header>
+    ヘッダー
+
+    <div class="work-header-box">
+        <div class="branding"><%= link_to "Branding", work_branding_path %></div>
+        <div class="logo"><%= link_to "Logo", work_logo_path %></div>
+        <div class="three_d"><%= link_to "3D", work_3d_path %></div>
+    </div>
+
+    <div class="header-box">
+        <div class="works"><%= link_to "Works", work_path %></div>
+        <div class="aboutme"><%= link_to "About me", about_me_path %></div>
+        <div class="home"><%= link_to "Home", root_path %></div>
+    </div>
+</header>
