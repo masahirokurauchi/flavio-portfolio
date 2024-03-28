@@ -1,5 +1,23 @@
+<header>ヘッダー</header>
+
 <div class="images">
     <%= image_tag "1.jpg", class: "image" %>
     <%= image_tag "2.jpg", class: "image" %>
     <%= image_tag "3.png", class: "image" %>
 </div>
+
+<script type="module">
+$(function() {
+	var headerHeight = $('header').outerHeight(),
+		startPos = 0;
+	$(window).on('load scroll', function() {
+		var scrollPos = $(this).scrollTop();
+		if ( scrollPos > startPos && scrollPos > headerHeight ) {
+			$('header').css('top', '-' + headerHeight + 'px');
+		} else {
+			$('header').css('top', '0');
+		}
+		startPos = scrollPos;
+	});
+});	
+</script>
