@@ -25,7 +25,7 @@
 // WORK HEADER
 header {
 	position: fixed;
-	padding: 1em 0;
+	// padding: 1em 0;
 	width: 100%;
 	text-align: center;
 	color: #fff;
@@ -34,7 +34,7 @@ header {
 	transition: .3s;
 
     display: flex;
-    font-size: 1.3rem;
+    // font-size: 1.3rem;
 
     a {
         color: #fff;
@@ -43,11 +43,23 @@ header {
 
     .work-header-box {
         display: flex;
+        margin: 0 0 0 auto;
+        margin: 50px auto 0;
+        width: 40%;
+
+        .branding {
+            margin-right: 100px;
+        }
+
+        .logo {
+            margin-right: 100px;
+        }
     }
 
     .header-box {
         display: flex;
         margin: 0 50px 0 auto;
+        margin: 50px auto 0;
 
         .works {
             margin-right: 10px;
