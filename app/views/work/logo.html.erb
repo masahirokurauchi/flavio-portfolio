@@ -1,9 +1,9 @@
 <%= render 'shared/work_header' %>
 
 <div class="logo-images">
-    <%= image_tag "ele.png", class: "image", id: "ele" %>
-    <%= image_tag "rainb.png", class: "image", id: "rainb" %>
-    <%= image_tag "green.png", class: "image", id: "green" %>
+    <%= link_to image_tag("ele.png", class: "image", id: "ele"), work_logo_path %>
+    <%= link_to image_tag("rainb.png", class: "image", id: "rainb"), work_logo_path %>
+    <%= link_to image_tag("green.png", class: "image", id: "green"), work_logo_path %>
 </div>
 
 
