@@ -1,9 +1,9 @@
 <%= render 'shared/work_header' %>
 
-<div class="images">
-    <%= image_tag "1.jpg", class: "image" %>
-    <%= image_tag "2.jpg", class: "image" %>
-    <%= image_tag "3.png", class: "image" %>
+<div class="logo-images">
+    <%= image_tag "ele.png", class: "image", id: "ele" %>
+    <%= image_tag "rainb.png", class: "image", id: "rainb" %>
+    <%= image_tag "green.png", class: "image", id: "green" %>
 </div>
 
 
@@ -21,5 +21,19 @@ $(document).ready(function() {
     $('header').css('background-color', 'white');
     $('.works a, .aboutme a, .home a, .branding a, .logo a, .three_d a').css('color','black');
 });
+
+$(function() {
+	var headerHeight = $('header').outerHeight(),
+		startPos = 0;
+	$(window).on('load scroll', function() {
+		var scrollPos = $(this).scrollTop();
+		if ( scrollPos > startPos && scrollPos > headerHeight ) {
+			$('header').css('top', '-' + headerHeight + 'px');
+		} else {
+			$('header').css('top', '0');
+		}
+		startPos = scrollPos;
+	});
+});	
 
 </script>
