@@ -10,4 +10,8 @@ class WorkController < ApplicationController
     def three_d
       
     end
+
+    def elephant
+      
+    end
 end

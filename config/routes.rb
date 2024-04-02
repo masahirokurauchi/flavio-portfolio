@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   get "work/branding"   , to: "work#branding"
   get "work/logo"       , to: "work#logo"
   get "work/3d"         , to: "work#three_d"
+
+  get "logo/elephant"   , to: "work#elephant"
+  get "logo/rainbow"    , to: "work#rainbow"
+  get "logo/green"      , to: "work#green"
 end
