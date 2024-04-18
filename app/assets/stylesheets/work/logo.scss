@@ -38,3 +38,17 @@
         margin: auto;
     }
 }
+
+.button-box {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-top: -180px;
+
+    .back-button {
+        background-color: #5157FF;
+        padding: 16px 38px;
+        border-radius: 42px;
+        color: white;
+    }
+}
