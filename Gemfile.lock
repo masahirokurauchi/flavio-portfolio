@@ -127,7 +127,7 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    nio4r (2.5.8)
+    nio4r (2.7.4)
     nokogiri (1.13.10-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.10-x86_64-darwin)
@@ -226,6 +226,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-22
 
 DEPENDENCIES
@@ -235,6 +236,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  nio4r (~> 2.5, >= 2.5.9)
   pg (~> 1.1)
   propshaft
   puma (~> 5.0)
